@@ -10,6 +10,14 @@ class WordFilter:
     """
 
     def __init__(self, word: str):
+        """
+        Initialization
+
+        Parameters
+        ----------
+        word : str
+            researched subject
+        """
         self.word = word
 
     def detect(self, detected_word: str) -> bool:
